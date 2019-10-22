@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+	  <Map/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Map from './components/Map.vue'
+// import {LMap, LTileLayer, LMarker} from 'vue2-leaflet'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld, Map
   }
 }
 </script>
