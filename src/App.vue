@@ -1,18 +1,16 @@
 <template>
   <div id="app">
-	  <Map/>
+	  <MapGeoJson/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Map from './components/Map.vue'
-// import {LMap, LTileLayer, LMarker} from 'vue2-leaflet'
+import MapGeoJson from './components/MapGeoJson.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld, Map
+    MapGeoJson
   }
 }
 </script>

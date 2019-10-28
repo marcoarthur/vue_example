@@ -12,8 +12,9 @@
 import { LMap, LTileLayer, LMarker } from 'vue2-leaflet'
 
 var uptit = function() {
-	return Date.now + "Hi"
+	return "Date is " + Date.now()
 }
+
 
 export default {
 	name: 'Map',
